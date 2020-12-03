@@ -9,7 +9,6 @@ foreach ($Line in Get-Content -Path ..\input.txt) {
 
         # Check if the occurence count is within the range and increment the valid password count if so.
         if (($LetterCount -ge $Matches.LowerRange) -and ($LetterCount -le $Matches.UpperRange)) {
-            Write-Host "Valid password!"
             $ValidCount++
         } 
     }
