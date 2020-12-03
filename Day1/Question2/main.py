@@ -1,6 +1,6 @@
 def main(input_text_file: str, target_sum: int) -> None:
     """
-    Determines from an input file what two numbers add up to a target sum.
+    Determines from an input file what three numbers add up to a target sum.
     It then prints the values and their product.
 
     :param input_text_file: The text file with input values.
