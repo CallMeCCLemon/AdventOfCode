@@ -39,4 +39,4 @@ def main(input_text_file: str, target_sum: int) -> None:
 
 
 if __name__ == '__main__':
-    main('input.txt', 2020)
+    main('../input.txt', 2020)
