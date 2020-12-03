@@ -1,0 +1,1 @@
+This repository is used to capture all of my solutions to the [Advent Of Code Event](adventofcode.com) for the 2020 holiday season. Will be using a variety of languages to give myself some exposure to unfamiliar languages or just languages I haven't used in a while with my work.
