@@ -11,11 +11,9 @@ int main()
 {
     FILE *inputFile = fopen("../input.txt", "r");
     // FILE *inputFile = fopen("tmp.txt", "r"); // For debugging with the provided solution.
-    char firstLineChar[1];
 
     int numberOfTreesHit = 0;
     int currentX = 0;
-    int lineNumber = 1;
     char lastCharacter;
 
     while (lastCharacter != EOF)
@@ -27,7 +25,6 @@ int main()
         {
             numberOfTreesHit++;
         }
-        lineNumber++;
     }
 
     fclose(inputFile);
