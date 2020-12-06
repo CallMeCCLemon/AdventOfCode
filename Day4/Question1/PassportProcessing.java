@@ -14,8 +14,7 @@ public class PassportProcessing {
             "hgt",
             "hcl",
             "ecl",
-            "pid"//,
-//            "cid"
+            "pid"
     ));
 
     public static void main(String [] args) throws IOException {
@@ -24,7 +23,7 @@ public class PassportProcessing {
         int validPassports = 0;
 
         // Get a chunk of lines, parse them into a list of entries, then process them.
-        List<String> chunkOfLines = new ArrayList<>();
+        final List<String> chunkOfLines = new ArrayList<>();
         String line = reader.readLine();
         while (line != null) {
             if (line.equals("")) {
