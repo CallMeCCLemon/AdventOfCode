@@ -20,12 +20,9 @@ int main()
 
     while (lastCharacter != EOF)
     {
-        printf("Line number: %d\n", lineNumber);
-        printf("Index = %d\n", currentX);
         lastCharacter = getCharAtIndex(inputFile, currentX);
-        printf("Character: %c\n", lastCharacter);
-
         currentX = (currentX + X_INCREMENT_PER_ROW) % LINE_LENGTH;
+        
         if (lastCharacter == TREE_CHAR)
         {
             numberOfTreesHit++;
